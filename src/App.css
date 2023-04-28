@@ -13,11 +13,11 @@
   font-variation-settings:
   'FILL' 0,
   'wght' 800,
-  'GRAD' 0,
+  'GRAD' 1,
   'opsz' 48
 }
 .searchBar{
- border: solid 1px grey;
+ border: solid 1px red;
   display: flex;
   align-items: center;
   padding: 6px 6px;
@@ -28,4 +28,110 @@
   width: 99%;
   border: none;
   outline: none;
+}
+.form-container{
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.form-container input{
+  width: 25%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+.header {
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #2A2F4F;
+  color: white;
+  border-radius: 3px;
+}
+
+table {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.add-btn {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.table-container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 10px;
+  width: 100%;
+}
+
+thead tr {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #dddddd;
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+td:first-child,
+th:first-child {
+  padding-left: 20px;
+}
+
+td:last-child,
+th:last-child {
+  padding-right: 20px;
+  text-align: right;
+}
+.search {
+  width: 100%;
+}
+.search input {
+  width: 96.5%;
+  margin-bottom: 10px;
+}
+input {
+  padding: 10px 15px;
+}
+.form-control {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
